@@ -24,18 +24,7 @@ class Five {
   public static void split(int input) {
     int[] result = {0, 0, 0, 0, 0};
     System.out.printf("Digits in %d are ", input);
-
-    for (int i=4; i>=0; i--) {
-      if(i>0) {
-        result[i] = input % 10;
-        input = input / 10;
-      } else {
-        result[i] = input;
-      }
-    }
-
-    for (int x=0; x<5; x++) {
-      System.out.printf("%d ", result[x]);
-    }
+    System.out.printf("%d %d %d %d %d\n"
+      , input/10000, input/1000%10, input/100%10, input/10%10, input%10);
   }
 }
