@@ -28,7 +28,7 @@ class Hangman {
   public static void game() {
     Scanner scan = new Scanner(System.in);
     // Load dictionary
-    String[] wordsDict = new String[50];
+    String[] wordsDict = new String[718];
     try (BufferedReader reader = new BufferedReader(new FileReader("words.dat")))
     {
       String currentLine;
