@@ -5,7 +5,10 @@ class VowelCountMain {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a sentence:");
     String sentence = scan.next();
-    int[] result = vowelCount(sentence.substring(0, 80));
+    if (sentence.length() > 80) {
+        sentence = sentence.substring(0, 80);
+    }
+    int[] result = vowelCount(sentence);
     System.out.println("A: " + result[0]);
     System.out.println("E: " + result[1]);
     System.out.println("I: " + result[2]);

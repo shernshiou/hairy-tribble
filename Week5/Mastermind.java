@@ -12,7 +12,7 @@ class Mastermind {
    * @param args
    */
   public static void main(String[] args) {
-    System.out.println("Welcome to Hangman");
+    System.out.println("Welcome to Mastermind");
     game();
   }
 
@@ -26,7 +26,7 @@ class Mastermind {
 
     for (int i = 0; i < 4; i++) {
       number[i] = rand.nextInt(9);
-      System.out.println(number[i]); 
+      //System.out.println(number[i]); 
     } 
 
     // Guess
