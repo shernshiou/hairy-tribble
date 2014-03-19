@@ -9,6 +9,7 @@ public class Frog {
    * Constructor
    */
   public Frog() {
+    leap = 0;
     this.name = "No name";
   }
 
