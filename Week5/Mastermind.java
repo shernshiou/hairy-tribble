@@ -16,6 +16,9 @@ class Mastermind {
     game();
   }
 
+  /**
+   * Mastermind Game
+   */
   public static void game() {
     Scanner scan = new Scanner(System.in);
     // Randomized & Start

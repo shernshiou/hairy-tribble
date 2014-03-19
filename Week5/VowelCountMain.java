@@ -1,6 +1,15 @@
 import java.util.Scanner;
 
+/**
+ * VowelCountMain class implements application to count vowels
+ */
 class VowelCountMain {
+
+  /**
+  * Main application
+  * 
+  * @param args
+  */
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
     System.out.println("Please enter a sentence:");
@@ -16,6 +25,11 @@ class VowelCountMain {
     System.out.println("U: " + result[4]);
   }
 
+  /**
+   * Vowel Counter
+   *
+   * @param input String to be counted
+   */
   public static int[] vowelCount(String input) {
     int[] counter = new int[5];
     for (int i = 0; i < input.length(); i++) {
