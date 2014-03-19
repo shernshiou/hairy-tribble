@@ -7,6 +7,13 @@ public class Frog {
 
   /**
    * Constructor
+   */
+  public Frog() {
+    this.name = "No name";
+  }
+
+  /**
+   * Constructor
    * 
    * @param  name Frog's name
    */
