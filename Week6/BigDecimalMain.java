@@ -29,8 +29,8 @@ class BigDecimalMain {
   public static void calculate(BigDecimal a, BigDecimal b) {
     System.out.printf("%s + %s = %s \n", a, b, a.add(b));
     System.out.printf("%s - %s = %s \n", a, b, a.subtract(b));
-    System.out.printf("%s - %s = %s \n", a, b, a.multiply(b));
-    System.out.printf("%s - %s = %s \n", a, b, a.divide(b));
+    System.out.printf("%s * %s = %s \n", a, b, a.multiply(b));
+    System.out.printf("%s / %s = %s \n", a, b, a.divide(b));
     System.out.printf("%s.toString() is %s \n", a, a.toString());
     System.out.printf("%s.toString() is %s \n", b, b.toString());
     System.out.printf("%s.equals(%s) is %b \n", a, b, a.equals(b));
